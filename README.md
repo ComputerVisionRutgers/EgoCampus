@@ -1,6 +1,6 @@
 # EgoCampus
 
-This branch contains source code for the [EgoCampus website](computervisionrutgers.github.io/EgoCampus)
+This branch contains source code for the [EgoCampus website](https://computervisionrutgers.github.io/EgoCampus)
 
 ___
 

@@ -7,11 +7,11 @@ ___
 ## Citation
 If you find this useful for your research, please use the following.
 ```
-@misc{
-    author  = {John, Ronan and Kesari, Aditya and DiMatteo, Vincenzo},
-    title   = {EgoCampus: Egocentric Pedestrian Eye Gaze Model and Dataset},
-    year    = {2025},
-    archivePrefix = {arXiv},
+@article{YourPaperKey2024,
+  title={EgoCampus: Egocentric Pedestrian Eye Gaze Model and Dataset},
+  author={John, Ronan and Kesari, Aditya and DiMatteo, Vincenzo and Dana, Kristin},
+  journal={ArXiv},
+  year={2026}
 }
 
 ```

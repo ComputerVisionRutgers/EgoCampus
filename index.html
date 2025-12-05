@@ -307,6 +307,31 @@ We introduce the EgoCampus dataset, which spans 25 unique outdoor paths over 6 k
 <!-- End paper abstract -->
 
 
+    <!-- dataset -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">EgoCampus Dataset</h2>
+        <div class="content has-text-justified">
+          
+          <p>
+        The EgoCampus dataset is a large-scale, multimodal resource designed specifically for studying egocentric pedestrian visual attention during real-world navigation. Using Meta's Project Aria glasses, we collected approximately 32 hours of synchronized video and sensor data from 82 unique human participants walking on 25 distinct outdoor paths at Rutgers University. The data stream is exceptionally rich, combining high-resolution (1408x1408) front-facing RGB video with precise eye-tracking coordinates, inertial motion units (IMUs), and GPS localization. This unique integration of features a large participant pool, extensive gaze data, and full outdoor sensor synchronization distinguishes EgoCampus from prior work, which often focuses on indoor activities or lacks complete motion and gaze data (as detailed in the comparison table ). All data adheres to strict privacy and ethics protocols, including de-identification and blurring of non-consenting pedestrians using the EgoBlur algorithm.
+<br>
+            The comprehensive collection protocol ensures the dataset captures the complexity of real-world outdoor navigation. Paths were deliberately chosen to include a rich variety of environmental contexts, lighting conditions, and interactions with static and dynamic obstacles, with recordings spanning different times of day, seasons, and weather conditions. The data processing pipeline extracts, downscales, and temporally aligns the high-frequency sensor streams (IMU at 1000Hz) with the 30Hz RGB frames, creating a highly efficient, synchronized ground-truth format suitable for modern deep learning models like our proposed EgoCampusNet. By focusing specifically on outdoor pedestrian egomotion and visual attention, EgoCampus provides a critical new benchmark for research in gaze prediction, navigation modeling, and general egocentric computer vision.</div>
+      
+        <img src="returnofplh.png" alt="Second research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+          <b>Dataset Paths.</b> A map showing a subset of the campus region, with colored paths indicating the participants’ walking trajectories.
+During data collection, each participant follows a set of paths forwards and backwards. A sample of the captured egocentric video is shown
+        </h2>
+      
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Acknowledgements -->
+
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">

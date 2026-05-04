@@ -1,0 +1,16 @@
+config.toml
+dataset_index.pt
+dataset_index_fix.pt
+media_export/*
+*.pyc
+
+checkpoints/*
+/.vscode
+profile.html
+profile.json
+
+data_cache/*
+*.lprof
+scalene-profile.html
+
+.aim/*

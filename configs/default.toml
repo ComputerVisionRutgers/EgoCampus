@@ -1,0 +1,30 @@
+rng_seed = 1
+mode = 'test'                                                   # for some scripts, this will determine which split is loaded
+
+[data]
+path_prefix = '/home/shared/datasets/egocampus/EgoCampus224'    # replace with your path to dataset
+excluded_subjects = ['a', 'b', 'c', '2']                        # subjects excluded from all splits
+excluded_paths = [1,26]                                         # paths excluded from all splits
+cache_image_bytes = false                                       # store dataset on RAM. reccomended false
+context_window = 64                                         
+sample_stride = 4                                            
+window_stride = 24
+gaussian_sigma = 60.0
+num_workers = 4
+input_size = [224, 224]
+output_size = [224, 224]
+std = [0.225, 0.225, 0.225]
+mean = [0.45, 0.45, 0.45]
+normalization_method = 'max-scaling'                            # 'max-scaling' or 'l1' or 'none'
+use_mask = true
+exclude_first_n_frames = 5
+
+[data.test]
+included_paths = [10,11,12,13,17,18,19,22,24]
+dataset = 'egocampus'
+batch_size = 16
+
+[data.train]
+included_paths = [2,3,4,5,6,7,8,9,14,15,16,20,21,23,25]
+dataset = 'egocampus'
+batch_size = 16

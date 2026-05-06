@@ -1,0 +1,12 @@
+opencv-python==4.13.*
+polars==1.38.*
+line_profiler
+jaxtyping
+ubelt==1.3.7
+natsort
+tqdm
+matplotlib
+psutil
+vrs==1.2.1
+projectaria-tools==1.6.0
+tyro

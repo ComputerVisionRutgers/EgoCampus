@@ -1,3 +1,4 @@
+from rerun_bindings import NotFoundError
 import os, sys
 
 # sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -181,7 +182,7 @@ class EgoCampusDataset(Dataset):
         dataset_walk = list(os.walk(str(path_prefix)))
 
         if len(dataset_walk) == 0:
-            print(f'No dataset found at {path_prefix}')
+            raise FileNotFoundError(f'No dataset found at {path_prefix}')
 
         # get the bitmap mask
         _, _, top_level_files = dataset_walk[0]

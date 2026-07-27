@@ -3,6 +3,7 @@ This repo contains code to parse and load the dataset.
 
 ## Dataset Information
 **Download the dataset [HERE](https://www.kaggle.com/datasets/ayetida/egocampus512)** Extract .zip before using.
+The raw dataset, consisting of .VRS files with full resolution images, Bluetooth, GPS, Wi-Fi information, can be downloaded on [BOX](https://rutgers.box.com/s/wplak4v5ihjylkuxu0qb7uzf64ytkv97) 
 
 The dataset has the following file structure
 - EgoCampus
